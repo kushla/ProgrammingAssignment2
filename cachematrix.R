@@ -33,6 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function computes the inverse of the matrix returned by makeCacheMatrix above
+## or pulls an inverse matrix from cache if it is stored there
 
 ## Initialize function name that has single formal argument x
 cacheSolve <- function(x, ...) {
